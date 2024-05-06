@@ -3,13 +3,12 @@
 print('Hello, world!')
 print('What is your name?')
 
-myName = input()
+userName = input()
 
-print('It is good to meed you, ' + myName)
-print('The length of your name is:')
-print(len(myName))
+print('It is good to meet you, ' + userName)
+print('The length of your name is: ' + str(len(userName)))
 print('What is your age?')
 
-myAge = input()
+userAge = input()
 
-print('You will be ' + str(int(myAge) + 1) + ' in a year.')
+print('You will be ' + str(int(userAge) + 1) + ' in a year.')
